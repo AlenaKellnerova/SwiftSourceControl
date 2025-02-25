@@ -16,6 +16,11 @@ struct ContentView: View {
                 .foregroundStyle(.tint)
             Text("Swift and Source Control")
         }
+        
+        Button("Click me") {
+            
+        }
+        
         .padding()
     }
 }
