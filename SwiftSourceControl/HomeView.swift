@@ -9,10 +9,15 @@ import SwiftUI
 
 struct HomeView: View {
     var body: some View {
-        VStack {
-            Text("Screen 2")
-            Text("Screen 2")
-            Text("Screen 2")
+        ZStack {
+            Color.blue.opacity(0.5)
+                .ignoresSafeArea()
+            
+            VStack {
+                Text("Screen 2")
+                Text("Screen 2")
+                Text("Screen 2")
+            }
         }
     }
 }
