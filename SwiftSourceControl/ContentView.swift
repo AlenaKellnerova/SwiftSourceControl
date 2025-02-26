@@ -17,7 +17,7 @@ struct ContentView: View {
             Text("Swift and Source Control")
         }
         
-        Button("Click me") {
+        Button("Subscribe now!") {
             
         }
         
