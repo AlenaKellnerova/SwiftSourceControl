@@ -9,7 +9,7 @@ import SwiftUI
 
 struct HomeView: View {
     
-    @State var title: String = "" 
+    @State var title: String = "Hello Apple"
     
     var body: some View {
         ZStack {
@@ -17,7 +17,7 @@ struct HomeView: View {
                 .ignoresSafeArea()
             
             VStack {
-                Text("Screen 2")
+                Text(title)
                     .font(.largeTitle)
                 Text("Screen 2")
                 Text("Screen 2")
