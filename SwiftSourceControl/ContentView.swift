@@ -25,10 +25,6 @@ struct ContentView: View {
             
         }
         
-        Button("Go To Store") {
-            
-        }
-        
         Rectangle()
         
         .padding()
