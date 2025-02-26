@@ -21,11 +21,11 @@ struct ContentView: View {
             
         }
         
-        Button("Subscribe") {
+        Button("Subscribe now!") {
             
         }
         
-        Button("Click me") {
+        Button("Go To Store") {
             
         }
         
