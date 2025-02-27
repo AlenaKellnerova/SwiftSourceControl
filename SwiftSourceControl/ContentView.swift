@@ -12,13 +12,13 @@ struct ContentView: View {
         VStack {
             ScrollView {
                 VStack {
-                    ForEach(0..<20) { _ in
+                    ForEach(0..<10) { _ in
                         VStack {
                             Image(systemName: "heart.fill")
                                 .font(.largeTitle)
                                 .imageScale(.large)
-                                .foregroundStyle(.tint)
-                            Text("Much Better Title")
+                                .foregroundStyle(.pink.opacity(0.5))
+                            Text("Little heart")
                         }
                     }
                 }
