@@ -18,7 +18,7 @@ struct ContentView: View {
                                 .font(.largeTitle)
                                 .imageScale(.large)
                                 .foregroundStyle(.pink.opacity(0.5))
-                            Text("Little heart")
+                            Text("Heart!")
                         }
                     }
                 }
