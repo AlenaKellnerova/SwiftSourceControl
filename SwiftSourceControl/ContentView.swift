@@ -19,6 +19,10 @@ struct ContentView: View {
                                 .font(.largeTitle)
                                 .imageScale(.large)
                                 .foregroundStyle(.pink.opacity(0.5))
+                            
+                            Button("Subscribe"){
+                                
+                            }
                         }
                     }
                 }
