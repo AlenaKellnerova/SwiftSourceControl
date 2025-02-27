@@ -20,7 +20,6 @@ struct HomeView: View {
                 Text(title)
                     .font(.largeTitle)
                 Text("Screen 2")
-                Text("Screen 2")
             }
         }
     }
