@@ -27,7 +27,10 @@ struct ContentView: View {
         
         Rectangle()
         
-        .padding()
+            .padding()
+            .onAppear {
+                // send analytics
+            }
     }
 }
 
