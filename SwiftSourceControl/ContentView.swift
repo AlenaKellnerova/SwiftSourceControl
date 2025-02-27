@@ -10,27 +10,14 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         VStack {
-            Image(systemName: "heart.fill")
-                .font(.largeTitle)
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Swift and Source Control")
-        }
-        
-        Button("Click me") {
-            
-        }
-        
-        Button("Subscribe now") {
-            
-        }
-        
-        Rectangle()
-        
-            .padding()
-            .onAppear {
-                // send analytics
+            ScrollView {
+                VStack {
+                    ForEach(0..<20) { _ in
+                        Text("Test")
+                    }
+                }
             }
+        }
     }
 }
 
