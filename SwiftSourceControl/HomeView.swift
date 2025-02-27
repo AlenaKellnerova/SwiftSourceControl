@@ -19,7 +19,7 @@ struct HomeView: View {
             VStack {
                 Text(title)
                     .font(.largeTitle)
-                Text("Screen 2")
+                Text("Welcome")
             }
         }
     }
