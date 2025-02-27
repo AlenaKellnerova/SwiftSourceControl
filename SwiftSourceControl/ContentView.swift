@@ -17,7 +17,7 @@ struct ContentView: View {
                             Image(systemName: "heart.fill")
                                 .font(.largeTitle)
                                 .imageScale(.large)
-                                .foregroundStyle(.tint)
+                                .foregroundStyle(.pink.opacity(0.5))
                             Text("Little heart")
                         }
                     }
