@@ -22,6 +22,7 @@ struct HomeView: View {
                     .fontWeight(.bold)
                     .foregroundStyle(.gray)
                 Text("Welcome")
+                    .foregroundStyle(.gray)
             }
         }
     }
