@@ -21,9 +21,6 @@ struct ContentView: View {
                                 .imageScale(.large)
                                 .foregroundStyle(.pink.opacity(0.5))
                             
-                            Button("Subscribe"){
-                                
-                            }
                         }
                     }
                 }
