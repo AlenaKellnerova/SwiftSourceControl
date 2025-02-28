@@ -9,7 +9,7 @@ import SwiftUI
 
 struct HomeView: View {
     
-    @State var title: String = "Hello, World!"
+    @State var title: String = "Hello, Alena!"
     
     var body: some View {
         ZStack {
@@ -19,6 +19,8 @@ struct HomeView: View {
             VStack {
                 Text(title)
                     .font(.largeTitle)
+                    .fontWeight(.bold)
+                    .foregroundStyle(.gray)
                 Text("Welcome")
             }
         }
