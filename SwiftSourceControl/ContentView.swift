@@ -14,7 +14,8 @@ struct ContentView: View {
                 VStack {
                     ForEach(0..<10) { _ in
                         VStack {
-                            Text("Hello Swift Source Control!")
+                            Text("Hello Alena!")
+                                .font(.headline)
                             Image(systemName: "heart.fill")
                                 .font(.largeTitle)
                                 .imageScale(.large)
