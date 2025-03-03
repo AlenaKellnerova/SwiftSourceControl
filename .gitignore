@@ -1,0 +1,64 @@
+# Xcode
+.DS_Store
+build/
+DerivedData/
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+xcuserdata/
+*.xcscmblueprint
+
+# Swift Package Manager
+.swiftpm/
+Package.resolved
+
+# CocoaPods
+Pods/
+*.xcworkspace
+podfile.lock
+
+# Carthage
+Carthage/
+
+# Fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots
+fastlane/test_output
+
+# Archives
+*.xcarchive
+
+# xcresult files (test results)
+*.xcresult
+
+# Playgrounds
+timeline.xctimeline
+playground.xcworkspace
+
+# Swift Package artifacts
+.build/
+
+# User-specific Xcode files
+*.moved-aside
+
+# Temporary files
+*.swp
+*.swo
+*.swn
+
+# Localization
+*.strings~
+
+# Ignore IDE-specific settings
+.idea/
+*.iml
+
+# Ignore environment files
+.env
+.env.local
