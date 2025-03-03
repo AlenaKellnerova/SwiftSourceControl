@@ -10,6 +10,7 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         VStack {
+            // commit to be discarted
             ScrollView {
                 VStack {
                     ForEach(0..<10) { _ in
