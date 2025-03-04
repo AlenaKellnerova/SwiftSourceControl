@@ -9,7 +9,7 @@ import SwiftUI
 
 struct ProfileView: View {
     
-    @State var isPremium: Bool = false
+    @State var isPremium: Bool = true
     
     var body: some View {
         Text("Profile")
